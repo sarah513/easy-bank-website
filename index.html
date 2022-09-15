@@ -130,16 +130,17 @@ Request Invite
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Career</a>
@@ -195,7 +196,7 @@ Request Invite
   </section>
 
   <!-- reasons section  -->
-  <section class="dark-gray-bg">
+  <section id="about"  class="dark-gray-bg">
     <section class="container d-flex flex-wrap">
 
       <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 pt-1 pb-5 px-3">
@@ -250,7 +251,7 @@ Request Invite
   </section>
 
   <!-- article section  -->
-  <section class="gray-bg">
+  <section id="blog" class="gray-bg">
     <section class="container pt-5">
       <h1 class="mb-3">Latest Articles</h1>
       <div>
@@ -334,7 +335,7 @@ Request Invite
   </section>
 
   <!-- footer  -->
-  <footer class="">
+  <footer id="contact" class="">
 
     <div class="container d-flex flex-wrap justify-content-between pb-4">
       <div class="col-lg-4 col-sm-12 col-xs-12 pt-4">
@@ -354,16 +355,18 @@ Request Invite
 
       <div class="col-lg-4 col-sm-12 col-xs-12 pt-4">
         <div class="d-flex flex-md-row  flex-sm-column flex-xs-column " >
-          <ul class="list-unstyled mb-0 me-3" >
-            <li class="ps-3 ">About Us</li>
-            <li class="ps-3">Contact</li>
-            <li class="ps-3 ">Blog</li>
-          </ul>
-          <ul class="list-unstyled" >
-            <li class="ps-3 ">Careers</li>
-            <li class="ps-3 ">Support</li>
-            <li class="ps-3 ">Privacy Policy</li>
-          </ul>
+         <ul class="boss d-flex flex-md-row  flex-sm-column flex-xs-column">
+           <ul class="list-unstyled " >
+             <li class="ps-3 ">About Us</li>
+             <li class="ps-3">Contact</li>
+             <li class="ps-3 ">Blog</li>
+           </ul>
+           <ul class="list-unstyled" >
+             <li class="ps-3 ">Careers</li>
+             <li class="ps-3 ">Support</li>
+             <li class="ps-3 ">Privacy Policy</li>
+           </ul>
+         </ul >
         </div>
 
       </div>
@@ -378,7 +381,7 @@ Request Invite
 
   </footer>
 
-  <div class="attribution position-fixed bottom-0 start-0 m-auto">
+  <div class="attribution position-fixed bottom-0 start-0 m-auto bg-white opacity-50">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Sarah Mustafa</a>.
   </div>
