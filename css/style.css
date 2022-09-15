@@ -91,11 +91,18 @@ background-color: hsl(0, 0%, 98%);
 footer{
     background-color: hsl(233, 26%, 24%);
 }
+.boss{
+    width: fit-content;
+    margin: auto;
+    padding: 0px;
+}
 ul li{
     font-size: 14px;
     cursor: pointer;
     transition: 500ms;
+    width: max-content;
     color:white;
+    
 }
 ul li:hover{
     color:hsl(136, 65%, 51%) ;
